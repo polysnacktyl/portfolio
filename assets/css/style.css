@@ -17,7 +17,7 @@ header{
 h1 {
     display: inline-block;
     background-color:rgb(153, 153, 153);
-    padding: 10px 10px 10px 3px;
+    padding: 10px 10px 10px 15px;
 }
 
 nav {
@@ -31,6 +31,8 @@ nav ul {
 }
 
 nav ul li {
+    display: flex;
+    flex-wrap: nowrap;
     display: inline-block;
     margin-right: 25px;
     text-align: right;
@@ -46,7 +48,6 @@ p {
 
 img {
     display: flex;
-    display: inline-block;
     max-width: 100%;
 }
 
@@ -54,7 +55,7 @@ img {
 figure {
     display: flex;
     width: 100%;
-    padding: 0%;
+    padding: 0% 0% 3% 0%;
     margin: 0%;
 }
 
