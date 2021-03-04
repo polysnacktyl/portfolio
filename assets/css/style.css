@@ -1,7 +1,7 @@
 body{
     padding: 0%;
     margin: 0%;
-    background-color: rgb(230, 230, 230);
+    background-color: white;
 }
 
 p {
@@ -11,7 +11,7 @@ p {
 header{
     padding: 0%; 
     margin: 0%;
-    background-color:rgb(214, 214, 214);
+    background-color: white;
 }
 
 h1 {
@@ -32,7 +32,7 @@ nav ul {
 
 nav ul li {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     display: inline-block;
     margin-right: 25px;
     text-align: right;
@@ -48,12 +48,19 @@ p {
 
 img {
     display: flex;
-    max-width: 100%;
+    flex: 1 1 0;
+    flex-wrap: wrap;
+    max-width: 300px;
+    justify-content: space-evenly;
+    float: right;
+    
 }
 
 
 figure {
     display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 250px;
     width: 100%;
     padding: 0% 0% 3% 0%;
     margin: 0%;
@@ -61,8 +68,9 @@ figure {
 
 .banner {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    height; auto;
+    height: auto;
     padding: 0%;
     margin: 0%;
     border: 0px;
@@ -72,15 +80,19 @@ figure {
 section{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     border: none;
+    margin-right: 20px;
   }
 
 aside {
-    flex: 0 0 25%;
+    flex: 0 1 20%;
+    flex-wrap: wrap;
     border-right: solid black 1px;
     margin: 10px;
     padding-top: 10px;
     padding-right: 5px;
+    padding-bottom: 10px;
     text-align: right;
     font-size: 18px;
     font-variant: small-caps;
@@ -88,10 +100,10 @@ aside {
 
   .column {
     flex-direction: row;
-    flex: 1 1 0;
+    flex: 1;
     flex-wrap: wrap;
     margin: 10px;
-    text-align: left;
+    
   }
 
   
