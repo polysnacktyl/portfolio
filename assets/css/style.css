@@ -5,7 +5,10 @@ body{
 }
 
 p {
-    font-size: 14x; 
+    font-size: 14x;
+    text-align: left;
+    padding-left: 10px;
+    border: none; 
 }
 
 header{
@@ -16,7 +19,8 @@ header{
 
 h1 {
     display: inline-block;
-    background-color:rgb(153, 153, 153);
+    color: white;
+    background-color:rgb(80, 193, 238);
     padding: 10px 10px 10px 15px;
 }
 
@@ -33,34 +37,25 @@ nav ul {
 nav ul li {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 35px;
     text-align: right;
     text-decoration: underline;
 
 }
 
-p {
-    text-align: left;
-    padding-left: 10px;
-    border: none;
-}
-
 img {
     display: flex;
-    flex: 1 1 0;
     flex-wrap: wrap;
-    max-width: 300px;
-    justify-content: space-evenly;
-    float: right;
-    
+    max-width: 100%;
+    border:rgb(80, 193, 238) solid 5px;
 }
 
 
 figure {
     display: flex;
     flex-wrap: wrap;
-    flex: 1 1 250px;
     width: 100%;
     padding: 0% 0% 3% 0%;
     margin: 0%;
@@ -83,11 +78,13 @@ section{
     flex-wrap: wrap;
     border: none;
     margin-right: 20px;
+    align-items: stretch;
   }
 
 aside {
     flex: 0 1 20%;
     flex-wrap: wrap;
+    flex-direction:column;
     border-right: solid black 1px;
     margin: 10px;
     padding-top: 10px;
@@ -103,7 +100,8 @@ aside {
     flex: 1;
     flex-wrap: wrap;
     margin: 10px;
-    
   }
+
+
 
   
