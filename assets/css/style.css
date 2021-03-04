@@ -32,7 +32,8 @@ nav ul {
 
 nav ul li {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-direction: column;
     display: inline-block;
     margin-right: 25px;
     text-align: right;
